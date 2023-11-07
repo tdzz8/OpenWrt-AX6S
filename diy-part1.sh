@@ -16,9 +16,9 @@
 # Add a feed source
 # echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 
-echo "src-git mymod_PW_pkg https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
-#echo "src-git mymod_PW2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> "feeds.conf.default"
-echo "src-git mymod_PW2 https://github.com/tdzz8/openwrt-passwall2.git;main" >> "feeds.conf.default"
+echo "src-git mymod_PW_pkg https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default"
+#echo "src-git mymod_PW2 https://github.com/xiaorouji/openwrt-passwall2.git" >> "feeds.conf.default"
+echo "src-git mymod_PW2 https://github.com/tdzz8/openwrt-passwall2.git" >> "feeds.conf.default"
 
 echo "src-git mymod_Lienol_pkg https://github.com/Lienol/openwrt-package" >> "feeds.conf.default"
 
